@@ -130,18 +130,12 @@ a:hover{
     height: 45vw;
 }
 
-.glavnaia h1{
+.ps{
+    background-color: #000000;
+}
+
+.ps p{
     text-align: center;
-    font-size: 40px;
-}
-
-.glavnaia{
-    padding: 30px;
-    background-color: #fff;
-    margin: 50px;
-    height: 500px;
-}
-
-.glavnaia a{
-    margin-right: 500px;
+    color: #fff;
+    font-size: 1vw;
 }
