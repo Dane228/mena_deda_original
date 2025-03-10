@@ -159,6 +159,23 @@ a:hover{
     font-size: 1vw;
 }
 
-.dialogi i{
+.dialogi i1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(185, 80, 218);
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.dialogi i2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(71, 141, 0);
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.dialogi i3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(7, 54, 149);
+    font-style: italic;
     font-size: 1vw;
 }
