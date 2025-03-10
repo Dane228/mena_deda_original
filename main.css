@@ -7,7 +7,7 @@ body{
 
 .logo img{
     margin: 2vw 0 0 1vw;
-    border: 1px solid black;
+    border: 0.2vw solid black;
     white-space: 350;
     height: 20vw;
     float: left;
@@ -54,7 +54,7 @@ a {
 a:after {
     display: block; /*превращаем его в блочный элемент*/
     content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
-    height: 1vw; /*задаём высоту линии*/
+    height: 0.2vw; /*задаём высоту линии*/
     width: 0%; /*задаём начальную ширину элемента (линии)*/
     background-color: #225384; /*цвет фона элемента*/
     transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
@@ -137,5 +137,28 @@ a:hover{
 .ps p{
     text-align: center;
     color: #fff;
+    font-size: 1vw;
+}
+
+.dialogi{
+    padding: 2vw;
+    border-bottom: 2vw solid black;
+}
+
+.dialogi summary{
+    color: blueviolet;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.dialogi ul{
+    list-style-type: none;
+}
+
+.dialogi p{
+    font-size: 1vw;
+}
+
+.dialogi i{
     font-size: 1vw;
 }
